@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="santiago-VirtualBox" name="AnadirDoctor.AnadirDoctorTest" tests="1" failures="1" timestamp="12 Jan 2017 21:39:53 GMT" time="7.17" errors="0">
+  <testcase name="test" time="2.917" classname="AnadirDoctor.AnadirDoctorTest">
+    <failure type="java.lang.AssertionError">
+      <![CDATA[java.lang.AssertionError
+	at AnadirDoctor.AnadirDoctorTest.test(AnadirDoctorTest.java:89)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

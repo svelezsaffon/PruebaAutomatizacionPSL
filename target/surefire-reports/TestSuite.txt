@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.556 sec <<< FAILURE!
+test(AnadirDoctor.AnadirDoctorTest)  Time elapsed: 2.91 sec  <<< FAILURE!
+java.lang.AssertionError
+	at AnadirDoctor.AnadirDoctorTest.test(AnadirDoctorTest.java:89)
