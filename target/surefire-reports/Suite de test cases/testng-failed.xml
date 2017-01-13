@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite de test cases]">
-  <test name="Como un usuario quiero añadir un doctor exitosamente(failed)" preserve-order="false">
+  <test name="Bug existente que deja seguir al usuario sin poner un valor a la fecha(failed)" preserve-order="false">
     <classes>
-      <class name="WebBrowser.WebBrowserSession">
+      <class name="Pacientes.AnadirPacienteExistenteTest">
         <methods>
-          <include name="closeSession"/>
+          <include name="closeTest"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="Pacientes.AnadirPacienteTest">
+        <methods>
+          <include name="init"/>
+          <include name="closeTest"/>
         </methods>
       </class>
       <class name="Doctor.AnadirDoctorTest">
         <methods>
+          <include name="closeTest"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="Cita.CitaSinDateTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="init"/>
+          <include name="test"/>
+        </methods>
+      </class>
+      <class name="Cita.CitaTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="Doctor.AnadirDoctorExistenteTest">
+        <methods>
           <include name="init"/>
           <include name="closeTest"/>
-          <include name="test"/>
+        </methods>
+      </class>
+      <class name="WebBrowser.WebBrowserSession">
+        <methods>
+          <include name="closeSession"/>
         </methods>
       </class>
     </classes>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="santiago-XPS-L412Z" name="Cita.CitaSinDateTest" tests="1" failures="1" timestamp="13 Jan 2017 16:29:38 GMT" time="3.091" errors="0">
+  <testcase name="test" time="3.088" classname="Cita.CitaSinDateTest">
+    <failure type="java.lang.AssertionError" message="Error al agendar una cita sin fecha">
+      <![CDATA[java.lang.AssertionError: Error al agendar una cita sin fecha
+	at Cita.CitaSinDateTest.test(CitaSinDateTest.java:87)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

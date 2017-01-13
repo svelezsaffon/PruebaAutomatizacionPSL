@@ -34,6 +34,13 @@
         </classes>
     </test>
 
+    <test name="Bug existente que deja seguir al usuario sin poner un valor a la fecha">
+        <classes>
+            <class name="Cita.CitaSinDateTest"/>
+        </classes>
+    </test>
+
+
     <test name="Cerrar navegadores">
         <classes>
             <class name="WebBrowser.WebBrowserSession"/>

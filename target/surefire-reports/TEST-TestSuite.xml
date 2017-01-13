@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="14.469" errors="0" skipped="0" tests="5" name="TestSuite">
+<testsuite failures="1" time="17.173" errors="0" skipped="0" tests="6" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
@@ -59,9 +59,14 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="8.758" classname="Doctor.AnadirDoctorTest" name="test"/>
-  <testcase time="1.381" classname="Pacientes.AnadirPacienteTest" name="test"/>
-  <testcase time="1.994" classname="Cita.CitaTest" name="test"/>
-  <testcase time="1.16" classname="Doctor.AnadirDoctorExistenteTest" name="test"/>
-  <testcase time="1.176" classname="Pacientes.AnadirPacienteExistenteTest" name="test"/>
+  <testcase time="8.064" classname="Doctor.AnadirDoctorTest" name="test"/>
+  <testcase time="1.343" classname="Pacientes.AnadirPacienteTest" name="test"/>
+  <testcase time="2.214" classname="Cita.CitaTest" name="test"/>
+  <testcase time="1.154" classname="Doctor.AnadirDoctorExistenteTest" name="test"/>
+  <testcase time="1.308" classname="Pacientes.AnadirPacienteExistenteTest" name="test"/>
+  <testcase time="3.09" classname="Cita.CitaSinDateTest" name="test">
+    <failure message="Error al agendar una cita sin fecha" type="java.lang.AssertionError">java.lang.AssertionError: Error al agendar una cita sin fecha
+	at Cita.CitaSinDateTest.test(CitaSinDateTest.java:87)
+</failure>
+  </testcase>
 </testsuite>
