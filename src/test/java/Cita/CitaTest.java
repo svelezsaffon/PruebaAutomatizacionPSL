@@ -1,5 +1,6 @@
 package Cita;
 
+import Config.SetUp;
 import Config.WebPageDir;
 import DatosUtilizados.Doctor;
 import DatosUtilizados.Paciente;
@@ -25,7 +26,7 @@ public class CitaTest {
     @BeforeTest
     public void init(){
 
-        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.CHROME);
+        this.browser= WebBrowserSession.createSession(SetUp.BROWSER);
 
     }
 

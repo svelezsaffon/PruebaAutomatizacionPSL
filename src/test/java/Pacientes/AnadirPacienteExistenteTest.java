@@ -1,5 +1,6 @@
 package Pacientes;
 
+import Config.SetUp;
 import Config.WebPageDir;
 import DatosUtilizados.Paciente;
 import WebBrowser.BrowserFactory;
@@ -21,7 +22,7 @@ public class AnadirPacienteExistenteTest {
 
     @BeforeTest
     public void init(){
-        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.CHROME);
+        this.browser= WebBrowserSession.createSession(SetUp.BROWSER);
     }
 
 
