@@ -4,13 +4,11 @@
 
 <suite name="Suite de test cases">
 
-    <!--
     <test name="Como un usuario quiero añadir un doctor exitosamente">
         <classes>
             <class name="Doctor.AnadirDoctorTest"/>
         </classes>
     </test>
-    -->
 
     <test name="Como un usuario quiero añadir un paciente exitosamente">
         <classes>
@@ -18,5 +16,28 @@
         </classes>
     </test>
 
+    <test name="Como un usuario quiero agendar un cita correctamente">
+        <classes>
+            <class name="Cita.CitaTest"/>
+        </classes>
+    </test>
+
+    <test name="Como usuario deseo probar que no pueda anadir un doctor que ya exista">
+        <classes>
+            <class name="Doctor.AnadirDoctorExistenteTest"/>
+        </classes>
+    </test>
+
+    <test name="Como usuario deseo probar que no pueda anadir un paciente que ya exista">
+        <classes>
+            <class name="Pacientes.AnadirPacienteExistenteTest"/>
+        </classes>
+    </test>
+
+    <test name="Cerrar navegadores">
+        <classes>
+            <class name="WebBrowser.WebBrowserSession"/>
+        </classes>
+    </test>
 
 </suite>

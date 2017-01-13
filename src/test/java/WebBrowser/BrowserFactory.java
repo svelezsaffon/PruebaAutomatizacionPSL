@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BrowserFactory {
 
     public enum BROWSER_TYPE{
-        CHROME,FIRE_FOX,REMOTE,
+        CHROME,FIRE_FOX,
     }
 
 
@@ -25,8 +25,8 @@ public class BrowserFactory {
             case FIRE_FOX:
                 ret= new FireFox();
                 break;
-
             default:
+                ret= new FireFox();
                 break;
         }
 
@@ -39,5 +39,8 @@ public class BrowserFactory {
         WebDriverWait wait_alert = new WebDriverWait(browser, time);
         wait_alert.until(condition);
     }
+
+
+
 
 }

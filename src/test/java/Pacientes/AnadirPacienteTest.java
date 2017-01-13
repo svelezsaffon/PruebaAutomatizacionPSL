@@ -22,7 +22,7 @@ public class AnadirPacienteTest {
 
     @BeforeTest
     public void init(){
-        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.FIRE_FOX);
+        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.CHROME);
     }
 
 

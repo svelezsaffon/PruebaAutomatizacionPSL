@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="santiago-VirtualBox" name="Pacientes.AnadirPacienteTest" tests="1" failures="0" timestamp="12 Jan 2017 23:32:49 GMT" time="8.818" errors="0">
-  <testcase name="test" time="4.921" classname="Pacientes.AnadirPacienteTest"/>
+<testsuite hostname="santiago-VirtualBox" name="Pacientes.AnadirPacienteTest" tests="1" failures="0" timestamp="13 Jan 2017 04:52:21 GMT" time="1.712" errors="0">
+  <testcase name="test" time="1.71" classname="Pacientes.AnadirPacienteTest"/>
 </testsuite>

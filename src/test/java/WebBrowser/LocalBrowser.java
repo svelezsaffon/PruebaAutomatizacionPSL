@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LocalBrowser extends ChromeDriver implements BrowserInterface {
 
     static {
-        System.setProperty("webdriver.chrome.driver", "CHROMEDRIVER");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
     }
 
     public LocalBrowser(){

@@ -14,6 +14,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.Calendar;
+
 /**
  * Created by santiago on 1/12/17.
  */
@@ -23,7 +25,7 @@ public class CitaTest {
     @BeforeTest
     public void init(){
 
-        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.FIRE_FOX);
+        this.browser= WebBrowserSession.createSession(BrowserFactory.BROWSER_TYPE.CHROME);
 
     }
 
@@ -35,7 +37,7 @@ public class CitaTest {
 
         BrowserFactory.browserWait(this.browser, BrowserInterface.MEDIUM_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.id("datepicker")));
 
-        WebElement cita=this.browser.findElement(By.id("datepicker"));
+        WebElement fecha=this.browser.findElement(By.id("datepicker"));
 
 
 
@@ -44,10 +46,6 @@ public class CitaTest {
         BrowserFactory.browserWait(this.browser,BrowserInterface.MEDIUM_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"page-wrapper\"]/div/div[3]/div/div[2]/input")));
 
         WebElement idpaciente = this.browser.findElement(By.xpath("//*[@id=\"page-wrapper\"]/div/div[3]/div/div[2]/input"));
-
-
-        ////*[@id="page-wrapper"]/div/div[3]/div/div[3]/input
-
 
         BrowserFactory.browserWait(this.browser,BrowserInterface.MEDIUM_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"page-wrapper\"]/div/div[3]/div/div[3]/input")));
 
@@ -75,6 +73,11 @@ public class CitaTest {
 
         Doctor doc=Doctor.generateDoctor();
 
+        Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_MONTH, 1);
+
+        fecha.sendKeys(cal.get(Calendar.DAY_OF_MONTH)+"/"+cal.get(Calendar.MONTH)+"/"+cal.get(Calendar.YEAR));
+
         idpaciente.sendKeys(pac.getId());
 
         iddoctor.sendKeys(doc.getId());
@@ -93,7 +96,7 @@ public class CitaTest {
 
     @AfterMethod
     public void closeTest(){
-        //this.browser.close();
+
     }
 
 

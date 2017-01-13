@@ -2,22 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d760ad8-d03c-4ee1-b7ea-168f0ba5c558" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DatosUtilizados/Doctor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DatosUtilizados/Paciente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/AnadirDoctor/AnadirDoctorTest.java" afterPath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AnadirDoctor/AnadirDoctorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AnadirDoctor/AnadirDoctorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-AnadirDoctor.AnadirDoctorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-AnadirDoctor.AnadirDoctorTest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/WebBrowser/BrowserFactory$BROWSER_TYPE.class" afterPath="$PROJECT_DIR$/target/test-classes/WebBrowser/BrowserFactory$BROWSER_TYPE.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/WebBrowser/BrowserFactory.class" afterPath="$PROJECT_DIR$/target/test-classes/WebBrowser/BrowserFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Cita/CitaTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Cita/CitaTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/WebBrowser/LocalBrowser.class" afterPath="$PROJECT_DIR$/target/test-classes/WebBrowser/LocalBrowser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/WebBrowser/WebBrowserSession.class" afterPath="$PROJECT_DIR$/target/test-classes/WebBrowser/WebBrowserSession.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" afterPath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" afterPath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java" afterPath="$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" afterPath="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.properties" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java" afterPath="$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java" afterPath="$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods-alphabetical.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng-failed.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng.xml.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
@@ -46,48 +62,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CitaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Cita/CitaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48758465">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4918033">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirPacienteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirDoctorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -115,19 +95,22 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/WebPageDir.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverFactory/Browser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/WebBrowser/FireFox.java" />
         <option value="$PROJECT_DIR$/src/test/java/Config/WebPageDir.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebBrowser/BrowserInterface.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatosUtilizados/Doctor.java" />
         <option value="$PROJECT_DIR$/src/test/java/AnadirDoctor/AnadirDoctorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatosUtilizados/Paciente.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java" />
         <option value="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pacientes/AnadirDoctorExistente.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       </list>
     </option>
@@ -412,6 +395,11 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Pacientes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -576,12 +564,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2423756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.65971106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -634,6 +622,8 @@
           <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -644,6 +634,8 @@
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,6 +669,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,6 +679,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -692,13 +689,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -706,20 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -734,13 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DatosUtilizados/Paciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -759,12 +731,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/LocalBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42553192">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -772,17 +745,75 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <caret line="125" column="44" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DatosUtilizados/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Cita/CitaTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3939394">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebBrowser/WebBrowserSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060606062">
+          <caret line="124" column="159" selection-start-line="124" selection-start-column="159" selection-end-line="124" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8671172">
+          <caret line="114" column="154" selection-start-line="114" selection-start-column="154" selection-end-line="114" selection-end-column="154" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48758465">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4918033">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Suite de test cases]">
-  <test name="Como un usuario quiero añadir un doctor(failed)" preserve-order="false">
+  <test name="Como usuario deseo probar que no pueda anadir un doctor que ya exista(failed)" preserve-order="false">
     <classes>
-      <class name="AnadirDoctor.AnadirDoctorTest">
+      <class name="Pacientes.AnadirPacienteTest">
         <methods>
           <include name="init"/>
-          <include name="test"/>
           <include name="closeTest"/>
+        </methods>
+      </class>
+      <class name="Doctor.AnadirDoctorTest">
+        <methods>
+          <include name="init"/>
+          <include name="closeTest"/>
+        </methods>
+      </class>
+      <class name="WebBrowser.WebBrowserSession">
+        <methods>
+          <include name="closeSession"/>
+        </methods>
+      </class>
+      <class name="Cita.CitaTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="Pacientes.AnadirPacienteExistenteTest">
+        <methods>
+          <include name="closeTest"/>
+          <include name="init"/>
+        </methods>
+      </class>
+      <class name="Doctor.AnadirDoctorExistenteTest">
+        <methods>
+          <include name="init"/>
+          <include name="closeTest"/>
+          <include name="test"/>
         </methods>
       </class>
     </classes>
