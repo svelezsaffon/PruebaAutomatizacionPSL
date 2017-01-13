@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="2.91" errors="0" skipped="0" tests="1" name="TestSuite">
+<testsuite failures="0" time="4.922" errors="0" skipped="0" tests="1" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
@@ -59,9 +59,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="2.91" classname="AnadirDoctor.AnadirDoctorTest" name="test">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at AnadirDoctor.AnadirDoctorTest.test(AnadirDoctorTest.java:89)
-</failure>
-  </testcase>
+  <testcase time="4.922" classname="Pacientes.AnadirPacienteTest" name="test"/>
 </testsuite>

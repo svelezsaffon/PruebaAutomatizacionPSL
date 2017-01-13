@@ -1,6 +1,7 @@
-package AnadirDoctor;
+package Doctor;
 
 import Config.WebPageDir;
+import DatosUtilizados.Doctor;
 import WebBrowser.BrowserFactory;
 import WebBrowser.BrowserInterface;
 import WebBrowser.WebBrowserSession;
@@ -11,8 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import java.util.List;
 
 /**
  * Created by santiago on 1/12/17.
@@ -32,6 +31,9 @@ public class AnadirDoctorTest {
 
     @Test
     public void test(){
+
+
+
         this.browser.get(WebPageDir.build_page(WebPageDir.Pages.ANADIR_DOCTOR));
 
         /*
@@ -69,29 +71,51 @@ public class AnadirDoctorTest {
          */
 
 
-        doctorName.sendKeys("Santiago");
+        Doctor doc=Doctor.generateDoctor();
 
-        doctorLastName.sendKeys("Velez");
+        doctorName.sendKeys(doc.getName());
 
-        doctorTel.sendKeys("8745462");
+        doctorLastName.sendKeys(doc.getLastName());
+
+        doctorTel.sendKeys(doc.getTel());
 
         idType.selectByVisibleText("Cédula de extrangería");
 
-        doctorId.sendKeys("12345678910");
+        doctorId.sendKeys(doc.getId());
 
         /*
             Seccion donde verificamos todos los valores antes de enviar el formulario
          */
 
-        assert doctorName.getAttribute("value").equals("Santiago");
-        assert doctorLastName.getAttribute("value").equals("Velez");
-        assert doctorTel.getAttribute("value").equals("8745462");
-        assert doctorId.getAttribute("value").equals("12544896325");
+        assert doctorName.getAttribute("value").equals(doc.getName()):"Nombre doctor no es el ingresado";
+        assert doctorLastName.getAttribute("value").equals(doc.getLastName()):"Apellido doctor no es el ingresado";
+        assert doctorTel.getAttribute("value").equals(doc.getTel()):"Telefono doctor no es el ingresado";
+        assert doctorId.getAttribute("value").equals(doc.getId()):"Identificacion doctor no es el ingresado";
 
 
         /*
-        Enviar el formulario
+        Enviar el formulariotest
          */
+
+
+        /*
+        TODO el boton del fomulario no tiene ningun tipo de identificacion, lo mejor seria hacerlo por XPATH
+         */
+
+        BrowserFactory.browserWait(this.browser, BrowserInterface.MEDIUM_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"page-wrapper\"]/div/div[3]/div/a")));
+
+        WebElement sendButton=this.browser.findElement(By.xpath("//*[@id=\"page-wrapper\"]/div/div[3]/div/a"));
+
+        sendButton.click();
+
+
+
+
+        /*
+        Aca no tenemos mucho que nos diga que el doctor fue guardado, asi que podemos hacerlo por el panel succes de bootstrpa
+         */
+
+        BrowserFactory.browserWait(this.browser, BrowserInterface.XSHORT_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.className("panel-success")));
 
 
     }
@@ -99,7 +123,9 @@ public class AnadirDoctorTest {
 
     @AfterMethod
     public void closeTest(){
-        //this.browser.close();
+
+
+
     }
 
 

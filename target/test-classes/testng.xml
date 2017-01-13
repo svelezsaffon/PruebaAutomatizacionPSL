@@ -4,13 +4,19 @@
 
 <suite name="Suite de test cases">
 
-
-    <test name="Como un usuario quiero añadir un doctor">
+    <!--
+    <test name="Como un usuario quiero añadir un doctor exitosamente">
         <classes>
-            <class name="AnadirDoctor.AnadirDoctorTest"/>
+            <class name="Doctor.AnadirDoctorTest"/>
         </classes>
     </test>
+    -->
 
+    <test name="Como un usuario quiero añadir un paciente exitosamente">
+        <classes>
+            <class name="Pacientes.AnadirPacienteTest"/>
+        </classes>
+    </test>
 
 
 </suite>
