@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="santiago-VirtualBox" name="Cita.CitaTest" tests="1" failures="0" timestamp="13 Jan 2017 05:15:03 GMT" time="2.04" errors="0">
-  <testcase name="test" time="2.039" classname="Cita.CitaTest"/>
+<testsuite hostname="santiago-XPS-L412Z" name="Cita.CitaTest" tests="1" failures="0" timestamp="13 Jan 2017 15:36:11 GMT" time="1.996" errors="0">
+  <testcase name="test" time="1.994" classname="Cita.CitaTest"/>
 </testsuite>

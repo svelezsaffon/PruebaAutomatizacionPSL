@@ -14,6 +14,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 /**
  * Created by santiago on 1/12/17.
  */
@@ -34,8 +36,7 @@ public class AnadirDoctorTest {
     public void test(){
 
 
-
-        this.browser.get(WebPageDir.build_page(WebPageDir.Pages.ANADIR_DOCTOR));
+        WebPageDir.clickPageOnMenu(this.browser,WebPageDir.Pages.ANADIR_DOCTOR);
 
         /*
             seccion dodne obtenemos todos los fiedls a llenar

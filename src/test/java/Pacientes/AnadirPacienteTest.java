@@ -30,9 +30,7 @@ public class AnadirPacienteTest {
     @Test
     public void test(){
 
-
-
-        this.browser.get(WebPageDir.build_page(WebPageDir.Pages.ANADIR_PACIENTE));
+        WebPageDir.clickPageOnMenu(this.browser,WebPageDir.Pages.ANADIR_PACIENTE);
 
         /*
             seccion dodne obtenemos todos los fiedls a llenar

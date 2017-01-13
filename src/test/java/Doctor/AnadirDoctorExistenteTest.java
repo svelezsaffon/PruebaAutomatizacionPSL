@@ -32,7 +32,7 @@ public class AnadirDoctorExistenteTest {
     public void test(){
 
 
-        this.browser.get(WebPageDir.build_page(WebPageDir.Pages.ANADIR_DOCTOR));
+        WebPageDir.clickPageOnMenu(this.browser,WebPageDir.Pages.ANADIR_DOCTOR);
 
         /*
             seccion dodne obtenemos todos los fiedls a llenar

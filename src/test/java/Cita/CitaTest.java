@@ -34,7 +34,7 @@ public class CitaTest {
     @Test
     public void test(){
 
-        this.browser.get(WebPageDir.build_page(WebPageDir.Pages.AGENDAR_CITA));
+        WebPageDir.clickPageOnMenu(this.browser,WebPageDir.Pages.AGENDAR_CITA);
 
         BrowserFactory.browserWait(this.browser, BrowserInterface.MEDIUM_WAIT_TIME, ExpectedConditions.presenceOfElementLocated(By.id("datepicker")));
 

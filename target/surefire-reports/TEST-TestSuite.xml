@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="7.921" errors="0" skipped="0" tests="5" name="TestSuite">
+<testsuite failures="0" time="14.469" errors="0" skipped="0" tests="5" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/santiago/Documents/PruebaAutomatizacion"/>
+    <property name="user.dir" value="/home/santiago/Documents/prueba_psl/PruebaAutomatizacionPSL"/>
     <property name="java.runtime.version" value="1.7.0_79-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed"/>
@@ -26,11 +26,11 @@
     <property name="os.name" value="Linux"/>
     <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/home/santiago/IDEs/idea-IC-141.1532.4/bin::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/home/santiago/Downloads/idea-IC-163.10154.41/bin::/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="3.13.0-37-generic"/>
+    <property name="os.version" value="3.16.0-30-generic"/>
     <property name="user.home" value="/home/santiago"/>
     <property name="user.timezone" value="America/Bogota"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -59,9 +59,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="2.202" classname="Doctor.AnadirDoctorTest" name="test"/>
-  <testcase time="1.489" classname="Pacientes.AnadirPacienteTest" name="test"/>
-  <testcase time="2.039" classname="Cita.CitaTest" name="test"/>
-  <testcase time="1.012" classname="Doctor.AnadirDoctorExistenteTest" name="test"/>
-  <testcase time="1.179" classname="Pacientes.AnadirPacienteExistenteTest" name="test"/>
+  <testcase time="8.758" classname="Doctor.AnadirDoctorTest" name="test"/>
+  <testcase time="1.381" classname="Pacientes.AnadirPacienteTest" name="test"/>
+  <testcase time="1.994" classname="Cita.CitaTest" name="test"/>
+  <testcase time="1.16" classname="Doctor.AnadirDoctorExistenteTest" name="test"/>
+  <testcase time="1.176" classname="Pacientes.AnadirPacienteExistenteTest" name="test"/>
 </testsuite>

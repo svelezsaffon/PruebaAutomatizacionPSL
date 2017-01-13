@@ -38,6 +38,10 @@ public class WebBrowserSession {
     }
 
 
+
+
+
+
     @AfterSuite
     public static void closeSession(){
         browser.close();
