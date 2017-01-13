@@ -2,62 +2,62 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite de test cases" duration-ms="10390" started-at="2017-01-13T00:12:47Z" finished-at="2017-01-13T00:12:57Z">
+  <suite name="Suite de test cases" duration-ms="11375" started-at="2017-01-13T00:14:54Z" finished-at="2017-01-13T00:15:05Z">
     <groups>
     </groups>
-    <test name="Como usuario deseo probar que no pueda anadir un paciente que ya exista" duration-ms="1415" started-at="2017-01-13T00:12:56Z" finished-at="2017-01-13T00:12:57Z">
+    <test name="Como usuario deseo probar que no pueda anadir un paciente que ya exista" duration-ms="1183" started-at="2017-01-13T00:15:04Z" finished-at="2017-01-13T00:15:05Z">
       <class name="Pacientes.AnadirPacienteExistenteTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:56Z" finished-at="2017-01-13T00:12:56Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="1" started-at="2017-01-13T00:15:04Z" finished-at="2017-01-13T00:15:04Z">
         </test-method>
-        <test-method status="PASS" signature="test()" name="test" duration-ms="1413" started-at="2017-01-13T00:12:56Z" finished-at="2017-01-13T00:12:57Z">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="1179" started-at="2017-01-13T00:15:04Z" finished-at="2017-01-13T00:15:05Z">
         </test-method>
-        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:57Z" finished-at="2017-01-13T00:12:57Z">
+        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:05Z" finished-at="2017-01-13T00:15:05Z">
         </test-method>
       </class>
     </test>
-    <test name="Como un usuario quiero añadir un paciente exitosamente" duration-ms="1791" started-at="2017-01-13T00:12:50Z" finished-at="2017-01-13T00:12:52Z">
+    <test name="Como un usuario quiero añadir un paciente exitosamente" duration-ms="1493" started-at="2017-01-13T00:15:00Z" finished-at="2017-01-13T00:15:01Z">
       <class name="Pacientes.AnadirPacienteTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:50Z" finished-at="2017-01-13T00:12:50Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="4" started-at="2017-01-13T00:15:00Z" finished-at="2017-01-13T00:15:00Z">
         </test-method>
-        <test-method status="PASS" signature="test()" name="test" duration-ms="1789" started-at="2017-01-13T00:12:50Z" finished-at="2017-01-13T00:12:52Z">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="1489" started-at="2017-01-13T00:15:00Z" finished-at="2017-01-13T00:15:01Z">
         </test-method>
-        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:52Z" finished-at="2017-01-13T00:12:52Z">
+        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:01Z" finished-at="2017-01-13T00:15:01Z">
         </test-method>
       </class>
     </test>
-    <test name="Como un usuario quiero agendar un cita correctamente" duration-ms="2153" started-at="2017-01-13T00:12:52Z" finished-at="2017-01-13T00:12:54Z">
+    <test name="Como un usuario quiero agendar un cita correctamente" duration-ms="2040" started-at="2017-01-13T00:15:01Z" finished-at="2017-01-13T00:15:03Z">
       <class name="Cita.CitaTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="1" started-at="2017-01-13T00:12:52Z" finished-at="2017-01-13T00:12:52Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:01Z" finished-at="2017-01-13T00:15:01Z">
         </test-method>
-        <test-method status="PASS" signature="test()" name="test" duration-ms="2150" started-at="2017-01-13T00:12:52Z" finished-at="2017-01-13T00:12:54Z">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="2039" started-at="2017-01-13T00:15:01Z" finished-at="2017-01-13T00:15:03Z">
         </test-method>
-        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:54Z" finished-at="2017-01-13T00:12:54Z">
+        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:03Z" finished-at="2017-01-13T00:15:03Z">
         </test-method>
       </class>
     </test>
-    <test name="Cerrar navegadores" duration-ms="0" started-at="2017-01-13T00:12:57Z" finished-at="2017-01-13T00:12:57Z">
+    <test name="Cerrar navegadores" duration-ms="0" started-at="2017-01-13T00:15:05Z" finished-at="2017-01-13T00:15:05Z">
       <class name="WebBrowser.WebBrowserSession">
-        <test-method status="PASS" signature="closeSession()" name="closeSession" is-config="true" duration-ms="117" started-at="2017-01-13T00:12:57Z" finished-at="2017-01-13T00:12:57Z">
+        <test-method status="PASS" signature="closeSession()" name="closeSession" is-config="true" duration-ms="8" started-at="2017-01-13T00:15:05Z" finished-at="2017-01-13T00:15:05Z">
         </test-method>
       </class>
     </test>
-    <test name="Como un usuario quiero añadir un doctor exitosamente" duration-ms="3862" started-at="2017-01-13T00:12:47Z" finished-at="2017-01-13T00:12:50Z">
+    <test name="Como un usuario quiero añadir un doctor exitosamente" duration-ms="5614" started-at="2017-01-13T00:14:54Z" finished-at="2017-01-13T00:15:00Z">
       <class name="Doctor.AnadirDoctorTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="1487" started-at="2017-01-13T00:12:47Z" finished-at="2017-01-13T00:12:48Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="3395" started-at="2017-01-13T00:14:54Z" finished-at="2017-01-13T00:14:57Z">
         </test-method>
-        <test-method status="PASS" signature="test()" name="test" duration-ms="2365" started-at="2017-01-13T00:12:48Z" finished-at="2017-01-13T00:12:50Z">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="2202" started-at="2017-01-13T00:14:57Z" finished-at="2017-01-13T00:15:00Z">
         </test-method>
-        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:50Z" finished-at="2017-01-13T00:12:50Z">
+        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:00Z" finished-at="2017-01-13T00:15:00Z">
         </test-method>
       </class>
     </test>
-    <test name="Como usuario deseo probar que no pueda anadir un doctor que ya exista" duration-ms="1128" started-at="2017-01-13T00:12:54Z" finished-at="2017-01-13T00:12:56Z">
+    <test name="Como usuario deseo probar que no pueda anadir un doctor que ya exista" duration-ms="1015" started-at="2017-01-13T00:15:03Z" finished-at="2017-01-13T00:15:04Z">
       <class name="Doctor.AnadirDoctorExistenteTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="0" started-at="2017-01-13T00:12:54Z" finished-at="2017-01-13T00:12:54Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="0" started-at="2017-01-13T00:15:03Z" finished-at="2017-01-13T00:15:03Z">
         </test-method>
-        <test-method status="PASS" signature="test()" name="test" duration-ms="1126" started-at="2017-01-13T00:12:54Z" finished-at="2017-01-13T00:12:56Z">
+        <test-method status="PASS" signature="test()" name="test" duration-ms="1013" started-at="2017-01-13T00:15:03Z" finished-at="2017-01-13T00:15:04Z">
         </test-method>
-        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="1" started-at="2017-01-13T00:12:56Z" finished-at="2017-01-13T00:12:56Z">
+        <test-method status="PASS" signature="closeTest()" name="closeTest" is-config="true" duration-ms="1" started-at="2017-01-13T00:15:04Z" finished-at="2017-01-13T00:15:04Z">
         </test-method>
       </class>
     </test>

@@ -7,6 +7,6 @@ import WebBrowser.BrowserFactory;
  */
 public class SetUp {
 
-    public static BrowserFactory.BROWSER_TYPE BROWSER=BrowserFactory.BROWSER_TYPE.CHROME;
+    public static BrowserFactory.BROWSER_TYPE BROWSER=BrowserFactory.BROWSER_TYPE.FIRE_FOX;
 
 }

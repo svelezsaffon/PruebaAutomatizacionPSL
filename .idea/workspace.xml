@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d760ad8-d03c-4ee1-b7ea-168f0ba5c558" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Config/SetUp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorExistenteTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorExistenteTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Doctor/AnadirDoctorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteExistenteTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteExistenteTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Pacientes/AnadirPacienteTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Cita/CitaTest.class" afterPath="$PROJECT_DIR$/target/test-classes/Cita/CitaTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java" afterPath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" afterPath="$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java" afterPath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" afterPath="$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Cerrar navegadores.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Cerrar navegadores.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Cerrar navegadores.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Cerrar navegadores.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" afterPath="$PROJECT_DIR$/src/test/java/Cita/CitaTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero agendar un cita correctamente.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero agendar un cita correctamente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero agendar un cita correctamente.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero agendar un cita correctamente.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un doctor exitosamente.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como un usuario quiero añadir un paciente exitosamente.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un doctor que ya exista.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un doctor que ya exista.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un doctor que ya exista.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un doctor que ya exista.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un paciente que ya exista.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un paciente que ya exista.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un paciente que ya exista.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/Como usuario deseo probar que no pueda anadir un paciente que ya exista.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Cita.CitaTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Cita.CitaTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorExistenteTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorExistenteTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Doctor.AnadirDoctorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteExistenteTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteExistenteTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Pacientes.AnadirPacienteTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng-failed.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/testng-failed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite de test cases/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Config/SetUp.java" afterPath="$PROJECT_DIR$/src/test/java/Config/SetUp.java" />
     </list>
     <ignored path="PruebaAutomatizacion.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,82 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CitaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Cita/CitaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="69" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirPacienteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirDoctorExistenteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorExistenteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirDoctorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Doctor/AnadirDoctorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
-              <folding>
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnadirPacienteExistenteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pacientes/AnadirPacienteExistenteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.892858">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SetUp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Config/SetUp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36734694">
-              <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+            <state vertical-scroll-proportion="0.4864865">
+              <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -602,7 +492,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24558587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4189406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Config/SetUp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36734694">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+        <state vertical-scroll-proportion="0.4864865">
+          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
           <folding />
         </state>
       </provider>
